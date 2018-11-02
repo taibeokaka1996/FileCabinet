@@ -1,0 +1,19 @@
+current directory: /home/taint/RubyOnRails/cabinet/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+/usr/bin/ruby2.5 -r ./siteconf20181102-23121-1i0feh3.rb extconf.rb
+creating Makefile
+
+current directory: /home/taint/RubyOnRails/cabinet/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/taint/RubyOnRails/cabinet/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/taint/RubyOnRails/cabinet/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20181102-23121-nsf6xc
